@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhapTaikhoan = prompt("ID:")
+    if (nhapTaikhoan == "Admin") {
+        let nhapMatkhau = prompt("MK:")
+        if (nhapMatkhau == "Themaster") {
+            alert("Wellcome!")
+        } else if (nhapMatkhau == "") {
+            alert("Canceled")
+        }
+        else {
+            alert("Wrong pass!")
+        }
+    }
+    else if (nhapTaikhoan == "")
+            alert("Canceled!")
+    else {
+            alert("i don't know!")
+
+    }
+
+</script>
+</body>
+</html>
